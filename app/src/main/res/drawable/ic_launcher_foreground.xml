@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top Horizontal Bar (Equals sign '=') -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 35.6,40 H 72.4 A 2.1,2.1 0 0 1 74.5,42.1 V 46.1 A 2.1,2.1 0 0 1 72.4,48.2 H 35.6 A 2.1,2.1 0 0 1 33.5,46.1 V 42.1 A 2.1,2.1 0 0 1 35.6,40 Z" />
+
+    <!-- Bottom Horizontal Bar with subtle diagonal gloss reflection -->
+    <group>
+        <clip-path android:pathData="M 35.6,59.8 H 72.4 A 2.1,2.1 0 0 1 74.5,61.9 V 65.9 A 2.1,2.1 0 0 1 72.4,68 H 35.6 A 2.1,2.1 0 0 1 33.5,65.9 V 61.9 A 2.1,2.1 0 0 1 35.6,59.8 Z" />
+        <!-- Base White -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 33,59 H 75 V 69 H 33 Z" />
+        <!-- Diagonal Gloss / Reflection on Right Half -->
+        <path
+            android:fillColor="#FFE8CE"
+            android:pathData="M 49.5,68 L 58,59.8 H 75 V 68 Z" />
+    </group>
+
+</vector>

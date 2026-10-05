@@ -1,0 +1,6 @@
+{
+  "name": "Calculator",
+  "description": "A beautifully crafted calculator featuring elegant squircle keypad design, expressive typography, and dynamic color themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

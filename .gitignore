@@ -1,0 +1,32 @@
+# Gradle & Build
+.gradle
+/build
+**/build/
+.kotlin
+captures/
+.externalNativeBuild
+.cxx
+
+# IDE & Editor files
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets, Environment & Keystores
+.env
+.env.local
+.env.*.local
+*.env
+local.properties
+*.jks
+*.keystore
+debug.keystore
+debug.keystore.base64
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
